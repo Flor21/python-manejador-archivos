@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  backend:
+    image: 'python-manejador-archivos:latest'
+    container_name: 'manejador-archivos'
+    ports:
+    - "80:80"
